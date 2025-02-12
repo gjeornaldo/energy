@@ -61,6 +61,7 @@ In the case of the Rome region, the buffering adjustment accounted for an additi
 
 ### Concentration of energy demand in a small number of cells.
 It was observed that a substantial proportion of energy demand is concentrated in a small number of grid cells, typically corresponding to power plants or large industrial facilities. Residential areas, by contrast, generally exhibit much lower energy demand.
+
 To systematically quantify this concentration in a generalized way, a section of the script isolates the top 1% of grid cells with the highest energy demand in each region. For these cells, the absolute and relative energy demand is calculated, offering insights into the concentration of energy use. The 1% threshold was selected to account for the considerable variation in the number of grid cells assigned to different regions as a result of the different extension of NUTS 3 region in the EU, that span from the 14 km2 of Melilla, in Spain, to the 105208 km2 of Norrbottens lä, in Sweden.
 
 
