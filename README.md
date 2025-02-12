@@ -38,7 +38,7 @@ The dataset consists in a spreadsheet that estimates the potential renewable ene
 The primary task of the analysis, whic can be found in the code, consists in the zonal analysis computed on the cell values from raw datasets that intersect or fall within each of the NUTS 3 regions of the EU, making it possible to assign a value to every one each of the 1162 regions.
 
 
-Choropletic map of the electricity_tot_demand dataset
+![](https://datavis.europeandatajournalism.eu/obct/connectivity/files/screenshot.png)
 
 For how much the process is quite straightforward, some challenges and limitations were identified in the analysis. 
 
