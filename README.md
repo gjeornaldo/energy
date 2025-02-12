@@ -34,7 +34,7 @@ The second data source comes from the publication [Renewable Energy production a
 
 The dataset consists in a spreadsheet that estimates the potential renewable energy production in the NUTS 3 regions of the EU quantifying it in Terawatt hours (TWh).
 
-##Analysis: 
+## Analysis: 
 The primary task of the analysis, whic can be found in the code, consists in the zonal analysis computed on the cell values from raw datasets that intersect or fall within each of the NUTS 3 regions of the EU, making it possible to assign a value to every one each of the 1162 regions.
 
 
@@ -42,7 +42,7 @@ Choropletic map of the electricity_tot_demand dataset
 
 For how much the process is quite straightforward, some challenges and limitations were identified in the analysis. 
 
-###Coastal regions:
+### Coastal regions:
 In the coastal regions and those with large bodies of water, certain cells remained unmatched because the region's boundary did not sufficiently cover these cells. 
 
 To address this, the methodology includes a step to reproject the NUTS 3 boundaries by applying a 500-meter buffer. This adjustment only affects areas not bordering another NUTS 3 region, ensuring no cell is assigned to more than one region. This buffering process successfully captures previously unmatched cells, as illustrated in a series of visual plots. 
@@ -59,7 +59,7 @@ Finally, this is the difference between the two plots, or the cells that were in
 
 In the case of the Rome region, the buffering adjustment accounted for an additional 0.63% of the total energy demand. The significance of this difference may vary depending on the concentration of energy-intensive activities in coastal areas and the relative size of the region.
 
-###Concentration of energy demand in a small number of cells.
+### Concentration of energy demand in a small number of cells.
 It was observed that a substantial proportion of energy demand is concentrated in a small number of grid cells, typically corresponding to power plants or large industrial facilities. Residential areas, by contrast, generally exhibit much lower energy demand.
 To systematically quantify this concentration in a generalized way, a section of the script isolates the top 1% of grid cells with the highest energy demand in each region. For these cells, the absolute and relative energy demand is calculated, offering insights into the concentration of energy use. The 1% threshold was selected to account for the considerable variation in the number of grid cells assigned to different regions as a result of the different extension of NUTS 3 region in the EU, that span from the 14 km2 of Melilla, in Spain, to the 105208 km2 of Norrbottens lä, in Sweden.
 
