@@ -9,7 +9,7 @@ Two data sources have been used for this project.
 
 The first one is the [EU Energy Atlas](https://data.jrc.ec.europa.eu/dataset/76a6b550-253c-44a4-9a4c-d22079e7bf62), created and published by the Joint Research Center research of the European Union. The data consists of 44 different datasets, discriminating between 8 groups of energy products, and 5 sectors of economic activity, as well as the total amount of energy demanded from a certain energy product.
 
-The datasets cover the entirety of the European Union, minus the French overseas territories, with a grid composed of 24,911,114 cells of 1 square kilometer each. All figures are expressed in kilotonnes of oil equivalent (ktoe).
+The datasets cover the entirety of the European Union, minus the French overseas territories, with a grid composed of 24,911,114 cells of 1 square kilometer each. All figures are expressed in tonnes of oil equivalent (toe).
 
 The energy products are:
 - electricity;
@@ -69,7 +69,7 @@ To systematically quantify this concentration in a generalized way, a section of
 
 ### Comparing energy demand and renewavle energy potential:
 The last step of the analysis consisted of a comparison of the two data sources, in order to estimate which share of energy demand could theoretically be met by the perspective production of renewable energy.
-Given that the two datasets have different units of measurement (ktoe and TWh), first the amounts of energy demand have been transformed from ktoe to TWh (1 ktoe equals to 0,01163 TWh). Then, the energy demand from all energy type and use, besides the non energetic uses, transformed in TWh has been compared to the potential production of energy from renewable energies in relative terms.
+Given that the two datasets have different units of measurement (toe and TWh), first the amounts of energy demand have been transformed from ktoe to TWh (1 toe equals to 0,00001163 TWh). Then, the energy demand from all energy type and use, besides the non energetic uses, transformed in TWh has been compared to the potential production of energy from renewable energies in relative terms.
 
 ## Dataset and how to cite:
 The product of the analysis can be found in [this dataset](https://docs.google.com/spreadsheets/d/1QMY6OxKxIXTsOdB_lu6g7EQbwxobU69mjj3LG6Pjhpw/edit?gid=2052512253#gid=2052512253).
